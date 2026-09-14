@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mi-Tech Computer College | Practical, Job-Ready Digital Skills</title>
+<meta name="description" content="Mi-Tech Computer College — practical, hands-on training in digital marketing, web development, data analytics, design, and more. Job-ready skills for the modern world." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="../index.html" class="brand">
+      <img class="logo-img" src="../assets/images/logo-college.png" alt="Mi-Tech Computer College" />
+    </a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../driving/index.html">Driving School</a>
+      <a href="index.html" class="active">Computer College</a>
+      <a href="../logistics/index.html">Logistics</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="https://wa.me/254722522100?text=Hi%20Mi-Tech%20Computer%20College%2C%20I%27d%20like%20to%20enroll%20in%20a%20course." target="_blank" rel="noopener" class="btn btn-navy nav-cta">Enroll now</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-panel">
+    <a href="../index.html">Home</a>
+    <a href="../driving/index.html">Driving School</a>
+    <a href="index.html" class="active">Computer College</a>
+    <a href="../logistics/index.html">Logistics</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+    <a href="https://wa.me/254722522100?text=Hi%20Mi-Tech%20Computer%20College%2C%20I%27d%20like%20to%20enroll%20in%20a%20course." target="_blank" rel="noopener" class="btn btn-navy btn-block">Enroll now</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true" data-hero-bg data-interval="5000">
+    <div class="hero-bg-slide active"><img src="../assets/images/college-new-03.jpg" alt="" loading="eager" /></div>
+    <div class="hero-bg-slide"><img src="../assets/images/college-02.jpg" alt="" /></div>
+    <div class="hero-bg-slide"><img src="../assets/images/college-new-01.jpg" alt="" /></div>
+    <div class="hero-bg-slide"><img src="../assets/images/college-05.jpg" alt="" /></div>
+    <div class="hero-bg-slide"><img src="../assets/images/college-new-04.jpg" alt="" /></div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="hero-eyebrow">Mi-Tech Computer College</span>
+      <h1>Premium computer training, <em>job-ready</em> skills.</h1>
+      <p class="lead">At Mi-Tech, we go beyond teaching — we equip you with practical, hands-on, job-ready skills for the modern world. 20 courses across software, data, design and business.</p>
+      <div class="hero-actions">
+        <a href="#courses" class="btn btn-primary">Browse Courses</a>
+        <a href="https://wa.me/254722522100?text=Hi%20Mi-Tech%20Computer%20College%2C%20I%27d%20like%20to%20enroll%20in%20a%20course." target="_blank" rel="noopener" class="btn btn-ghost">Enroll now</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>20</strong><span>Courses on offer</span></div>
+        <div><strong>4–18</strong><span>Weeks per course</span></div>
+        <div><strong>Online</strong><span>Classes available</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="route-line"><span class="route-dot"></span></div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Why Choose Mi-Tech</span>
+      <h2>Training built for the job market, not just the classroom</h2>
+    </div>
+    <div class="grid grid-4">
+      <div class="feature-card"><span class="num">01</span><h3>Practical, hands-on training</h3><p>Learn by doing, on real tools and real projects.</p></div>
+      <div class="feature-card"><span class="num">02</span><h3>Personalized learning</h3><p>Small class sizes, paced to how you learn best.</p></div>
+      <div class="feature-card"><span class="num">03</span><h3>Job-ready skills</h3><p>Every course built around what employers actually need.</p></div>
+      <div class="feature-card"><span class="num">04</span><h3>Online classes available</h3><p>Train from anywhere, on a schedule that fits your life.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section on-mist" id="courses">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Courses &amp; Fees</span>
+      <h2>Find the course that fits where you're headed</h2>
+      <p>Search by name, filter by track, or browse all 20 courses below.</p>
+    </div>
+
+    <div class="course-search">
+      <span class="course-search-icon">🔍</span>
+      <input type="text" id="courseSearch" placeholder="Search courses — e.g. &quot;web&quot;, &quot;design&quot;, &quot;accounting&quot;" aria-label="Search courses" />
+    </div>
+
+    <div class="track-filter">
+      <button data-filter="all" class="active">All Courses</button>
+      <button data-filter="software">Software &amp; Web</button>
+      <button data-filter="data">Data &amp; Analytics</button>
+      <button data-filter="design">Design &amp; Creative</button>
+      <button data-filter="business">Business &amp; Office</button>
+      <button data-filter="security">Security Tech</button>
+    </div>
+
+    <p class="course-count" id="courseCount"></p>
+
+    <div class="grid grid-3" id="courseGrid">
+
+      <div class="course-card" data-track="business" data-name="monitoring &amp; evaluation (m&amp;e)">
+        <span class="track">Business &amp; Office</span>
+        <h3>Monitoring &amp; Evaluation (M&amp;E)</h3>
+        <div class="meta"><span>⏱ 8 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 20,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Learn how development projects and programs are tracked, measured and reported on so funders and managers can see real impact.</p>
+          <p><strong>You'll learn:</strong> Designing M&E frameworks, indicator tracking, data collection tools, and report writing for donors and stakeholders.</p>
+        </div>
+      </div>
+
+      <div class="course-card" data-track="business" data-name="project management">
+        <span class="track">Business &amp; Office</span>
+        <h3>Project Management</h3>
+        <div class="meta"><span>⏱ 8 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 20,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>A practical introduction to planning, running and closing projects on time and on budget.</p>
+          <p><strong>You'll learn:</strong> Project planning and scheduling, budgeting, risk management, and tracking progress with tools like Gantt charts.</p>
+        </div>
+      </div>
+
+      <div class="course-card" data-track="design" data-name="graphic design">
+        <span class="track">Design &amp; Creative</span>
+        <h3>Graphic Design</h3>
+        <div class="meta"><span>⏱ 12 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 25,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Build the visual design skills to create logos, posters, social media graphics and print materials.</p>
+          <p><strong>You'll learn:</strong> Design principles, color and typography, layout composition, and building a small design portfolio.</p>
+        </div>
+      </div>
+
+      <div class="course-card" data-track="business" data-name="computerized accounting (quickbooks)">
+        <span class="track">Business &amp; Office</span>
+        <h3>Computerized Accounting (QuickBooks)</h3>
+        <div class="meta"><span>⏱ 4 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 12,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Manage business finances the way real companies do — digitally.</p>
+          <p><strong>You'll learn:</strong> Recording transactions, invoicing, payroll basics, and generating financial reports in QuickBooks.</p>
+        </div>
+      </div>
+
+      <div class="course-card" data-track="business" data-name="computer packages">
+        <span class="track">Business &amp; Office</span>
+        <h3>Computer Packages</h3>
+        <div class="meta"><span>⏱ 8 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 8,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>A foundational course covering the everyday computer skills every office job requires.</p>
+          <p><strong>You'll learn:</strong> Word, Excel and PowerPoint essentials, email and internet basics, and general computer literacy.</p>
+        </div>
+      </div>
+
+      <div class="course-card" data-track="data" data-name="data visualization (power bi &amp; tableau + excel)">
+        <span class="track">Data &amp; Analytics</span>
+        <h3>Data Visualization (Power BI &amp; Tableau + Excel)</h3>
+        <div class="meta"><span>⏱ 5 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 15,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Turn spreadsheets full of numbers into charts and dashboards people can actually understand.</p>
+          <p><strong>You'll learn:</strong> Building dashboards in Power BI and Tableau, advanced Excel charting, and presenting data clearly to decision-makers.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="business" data-name="funding proposal writing" style="display:none;">
+        <span class="track">Business &amp; Office</span>
+        <h3>Funding Proposal Writing</h3>
+        <div class="meta"><span>⏱ 8 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 25,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Learn to write proposals that get NGOs, grants and donor-funded projects approved.</p>
+          <p><strong>You'll learn:</strong> Needs assessment, budget narratives, logical frameworks, and structuring a winning funding proposal.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="software" data-name="basic programming" style="display:none;">
+        <span class="track">Software &amp; Web</span>
+        <h3>Basic Programming</h3>
+        <div class="meta"><span>⏱ 5 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 10,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Your first step into coding — no experience required.</p>
+          <p><strong>You'll learn:</strong> Programming logic, variables and loops, problem-solving with code, and writing your first small programs.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="software" data-name="artificial intelligence" style="display:none;">
+        <span class="track">Software &amp; Web</span>
+        <h3>Artificial Intelligence</h3>
+        <div class="meta"><span>⏱ 5 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 10,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>An introduction to how AI tools actually work and how to use them in everyday and business tasks.</p>
+          <p><strong>You'll learn:</strong> AI fundamentals, working with popular AI tools, prompt writing, and practical use cases for business and productivity.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="business" data-name="digital marketing" style="display:none;">
+        <span class="track">Business &amp; Office</span>
+        <h3>Digital Marketing</h3>
+        <div class="meta"><span>⏱ 12 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 30,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Learn to market a business online — from social media to search to paid ads.</p>
+          <p><strong>You'll learn:</strong> Social media marketing, SEO basics, running ad campaigns, and measuring marketing results.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="software" data-name="web development" style="display:none;">
+        <span class="track">Software &amp; Web</span>
+        <h3>Web Development</h3>
+        <div class="meta"><span>⏱ 12 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 27,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Build real, working websites from scratch using the same tools professional developers use.</p>
+          <p><strong>You'll learn:</strong> HTML, CSS and JavaScript fundamentals, responsive design, and publishing a live website.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="design" data-name="coreldraw" style="display:none;">
+        <span class="track">Design &amp; Creative</span>
+        <h3>CorelDRAW</h3>
+        <div class="meta"><span>⏱ 4 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 8,500</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>A vector design tool widely used for branding, print and signage work in Kenya.</p>
+          <p><strong>You'll learn:</strong> Vector illustration, logo design, print-ready layouts, and preparing files for printers.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="design" data-name="adobe illustrator" style="display:none;">
+        <span class="track">Design &amp; Creative</span>
+        <h3>Adobe Illustrator</h3>
+        <div class="meta"><span>⏱ 4 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 8,500</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Industry-standard vector design software for logos, icons and illustrations.</p>
+          <p><strong>You'll learn:</strong> Vector drawing tools, logo and icon design, typography, and exporting artwork for print or web.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="design" data-name="adobe photoshop" style="display:none;">
+        <span class="track">Design &amp; Creative</span>
+        <h3>Adobe Photoshop</h3>
+        <div class="meta"><span>⏱ 4 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 8,500</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Master photo editing and digital design with the industry's most-used creative tool.</p>
+          <p><strong>You'll learn:</strong> Photo retouching, compositing, digital art basics, and preparing images for print or social media.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="design" data-name="adobe indesign" style="display:none;">
+        <span class="track">Design &amp; Creative</span>
+        <h3>Adobe InDesign</h3>
+        <div class="meta"><span>⏱ 4 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 8,500</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>The tool professionals use to lay out brochures, magazines, reports and books.</p>
+          <p><strong>You'll learn:</strong> Page layout, working with text and images, print-ready document design, and multi-page publications.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="design" data-name="adobe premiere" style="display:none;">
+        <span class="track">Design &amp; Creative</span>
+        <h3>Adobe Premiere</h3>
+        <div class="meta"><span>⏱ 18 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 16,500</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Learn to edit video the way professional editors do, from raw footage to a finished cut.</p>
+          <p><strong>You'll learn:</strong> Video editing workflow, cutting and transitions, audio syncing, color correction, and exporting for social media or broadcast.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="software" data-name="wordpress development" style="display:none;">
+        <span class="track">Software &amp; Web</span>
+        <h3>WordPress Development</h3>
+        <div class="meta"><span>⏱ 4 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 8,500</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Build and manage full websites without writing code from scratch.</p>
+          <p><strong>You'll learn:</strong> WordPress setup and themes, page building, plugins, and basic site management and maintenance.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="software" data-name="cisco networking" style="display:none;">
+        <span class="track">Software &amp; Web</span>
+        <h3>Cisco Networking</h3>
+        <div class="meta"><span>⏱ 4 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 8,500</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>An introduction to how computer networks are built, configured and maintained.</p>
+          <p><strong>You'll learn:</strong> Networking fundamentals, IP addressing, router and switch configuration, and basic troubleshooting.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="security" data-name="cctv installation" style="display:none;">
+        <span class="track">Security Tech</span>
+        <h3>CCTV Installation</h3>
+        <div class="meta"><span>⏱ 12 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 25,500</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Hands-on training in installing and configuring security camera systems.</p>
+          <p><strong>You'll learn:</strong> Camera and DVR/NVR setup, cabling and power, remote viewing configuration, and basic system troubleshooting.</p>
+        </div>
+      </div>
+
+      <div class="course-card course-extra" data-track="data" data-name="data analytics (excel, power bi/tableau, sql, ai)" style="display:none;">
+        <span class="track">Data &amp; Analytics</span>
+        <h3>Data Analytics (Excel, Power BI/Tableau, SQL, AI)</h3>
+        <div class="meta"><span>⏱ 12 weeks</span><span>🏫 In-person / Online</span></div>
+        <div class="price"><strong>KES 25,000</strong><span>Full course</span></div>
+        <div class="card-register-hint">Tap card to register →</div>
+        <button type="button" class="course-details-toggle" aria-expanded="false">
+          <span class="label">More details</span> <span class="chev">&#9662;</span>
+        </button>
+        <div class="course-desc">
+          <p>Go from raw data to real business insight using the tools employers actually ask for.</p>
+          <p><strong>You'll learn:</strong> Excel and SQL for data analysis, Power BI/Tableau dashboards, and using AI tools to speed up analysis.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="course-no-results" id="courseNoResults" style="display:none;">No courses match your search. Try a different keyword or clear the filter.</p>
+
+    <div class="course-load-more-wrap">
+      <button type="button" class="btn btn-outline" id="courseLoadMore">Show all 20 courses</button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Student Reviews</span>
+      <h2>What our students say</h2>
+      <p>Real reviews from Mi-Tech Computer College graduates.</p>
+    </div>
+    <div class="grid grid-3">
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Mi-Tech gave me hands-on skills I could actually use right after class. The trainers were patient and always ready to explain things until they made sense."</p>
+        <div class="testimonial-person">
+          <img class="avatar-photo" src="../assets/images/reviews/angel-wandie.jpg" alt="Angel Wandie">
+          <div><strong>Angel Wandie</strong><span>Mi-Tech Computer College Graduate</span></div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"I came in knowing very little about computers and left with real confidence. The course content was practical and the staff genuinely cared about our progress."</p>
+        <div class="testimonial-person">
+          <img class="avatar-photo" src="../assets/images/reviews/neema-wangari.jpg" alt="Neema Wangari">
+          <div><strong>Neema Wangari</strong><span>Mi-Tech Computer College Graduate</span></div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"I walked into Mi-Tech barely knowing my way around a keyboard, and walked out able to hold my own in interviews. The instructors broke everything down step by step and never made you feel behind."</p>
+        <div class="testimonial-person">
+          <img class="avatar-photo" src="../assets/images/reviews/lemuel-kuria.jpg" alt="Lemuel Kuria">
+          <div><strong>Lemuel Kuria</strong><span>Mi-Tech Computer College Graduate</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section on-mist">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Inside the Classroom</span>
+      <h2>Where you'll be learning</h2>
+    </div>
+    <div class="photo-carousel" data-carousel data-interval="4500">
+      <div class="photo-carousel-viewport">
+        <div class="photo-carousel-track">
+          <div class="photo-carousel-slide"><img src="../assets/images/college-new-01.jpg" alt="Computer lab at Mi-Tech Computer College" /></div>
+          <div class="photo-carousel-slide"><img src="../assets/images/college-new-02.jpg" alt="Mi-Tech Computer College classroom setup" /></div>
+          <div class="photo-carousel-slide"><img src="../assets/images/college-new-03.jpg" alt="Students at computer workstations at Mi-Tech Computer College" /></div>
+          <div class="photo-carousel-slide"><img src="../assets/images/college-new-04.jpg" alt="Students in class at Mi-Tech Computer College" /></div>
+        </div>
+      </div>
+      <button type="button" class="photo-carousel-arrow prev" aria-label="Previous photo">&#8249;</button>
+      <button type="button" class="photo-carousel-arrow next" aria-label="Next photo">&#8250;</button>
+      <div class="photo-carousel-dots"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="enroll">
+  <div class="wrap">
+    <div class="cta-band">
+      <span class="eyebrow" style="color:#ffd0d2;">Start This Term</span>
+      <h2>Pick your course, we'll handle the rest</h2>
+      <p>Speak to our team about the right course, schedule and payment plan for you.</p>
+      <div class="hero-actions">
+        <a href="tel:+254722522100" class="btn btn-primary">Call +254 722 522 100</a>
+        <a href="mailto:info@mitechinternational.com" class="btn btn-ghost">Email us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section on-mist" id="contact">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Find Us</span>
+      <h2>Locations &amp; booking offices</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="contact-card">
+        <h3>Head Office</h3>
+        <div class="contact-row"><span class="label">Address</span><span class="val">Legacy Plaza, 2nd Floor, Thindigua</span></div>
+        <div class="contact-row"><span class="label">Tel</span><a class="val" href="tel:+254722522100">+254 722 522 100</a></div>
+        <div class="contact-row"><span class="label">Tel</span><a class="val" href="tel:+254733838920">+254 733 838 920</a></div>
+      </div>
+      <div class="contact-card">
+        <h3>Booking Offices</h3>
+        <div class="contact-row"><span class="label">Kiambu</span><a class="val" href="tel:: 0722 522 100"> 0722 522 100</a></div>
+        <div class="contact-row"><span class="label">Kirigiti</span><a class="val" href="tel:: 0722 522 100"> 0722 522 100</a></div>
+      </div>
+      <div class="contact-card">
+        <h3>Email &amp; Social</h3>
+        <div class="contact-row"><span class="label">Email</span><a class="val" href="mailto:college@mitechinternational.com">college@mitechinternational.com</a></div>
+        <div class="contact-row"><span class="label">TikTok</span><a class="val" href="https://www.tiktok.com/@mi_tech.college" target="_blank" rel="noopener">mi_tech.college</a></div>
+      </div>
+    </div>
+    <div class="map-embed">
+      <iframe title="Mi-Tech — Legacy Plaza, Thindigua" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=-1.1993905,36.8351462(Mi-Tech+International,+Legacy+Plaza)&z=16&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><img class="logo-img" src="../assets/images/logo-college-footer-red.png" alt="Mi-Tech Computer College" /></div>
+        <p style="font-size:13.5px;">A division of Mi-Tech International Group — practical, job-ready digital skills.</p>
+        <div class="social-row">
+          <a href="https://www.instagram.com/mi_tech_driving_school/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c2.7 0 3.1 0 4.1.1 1 .1 1.7.2 2.3.5.6.2 1.1.6 1.6 1.1.5.5.8.9 1.1 1.6.2.6.4 1.3.5 2.3.1 1 .1 1.4.1 4.1s0 3.1-.1 4.1c-.1 1-.2 1.7-.5 2.3a4.6 4.6 0 0 1-1.1 1.6c-.5.5-.9.8-1.6 1.1-.6.2-1.3.4-2.3.5-1 .1-1.4.1-4.1.1s-3.1 0-4.1-.1c-1-.1-1.7-.2-2.3-.5a4.6 4.6 0 0 1-1.6-1.1 4.6 4.6 0 0 1-1.1-1.6c-.2-.6-.4-1.3-.5-2.3-.1-1-.1-1.4-.1-4.1s0-3.1.1-4.1c.1-1 .2-1.7.5-2.3.2-.6.6-1.1 1.1-1.6.5-.5.9-.8 1.6-1.1.6-.2 1.3-.4 2.3-.5 1-.1 1.4-.1 4.1-.1Zm0 1.8c-2.6 0-2.9 0-4 .1-.8.1-1.3.2-1.6.3-.4.2-.7.3-1 .6-.3.3-.5.6-.6 1-.1.3-.3.8-.3 1.6-.1 1.1-.1 1.4-.1 4s0 2.9.1 4c.1.8.2 1.3.3 1.6.2.4.3.7.6 1 .3.3.6.5 1 .6.3.1.8.3 1.6.3 1.1.1 1.4.1 4 .1s2.9 0 4-.1c.8-.1 1.3-.2 1.6-.3.4-.2.7-.3 1-.6.3-.3.5-.6.6-1 .1-.3.3-.8.3-1.6.1-1.1.1-1.4.1-4s0-2.9-.1-4c-.1-.8-.2-1.3-.3-1.6-.2-.4-.3-.7-.6-1a2.7 2.7 0 0 0-1-.6c-.3-.1-.8-.3-1.6-.3-1.1-.1-1.4-.1-4-.1Zm0 3.2a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6Zm0 1.8a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5-2.2a1.1 1.1 0 1 1 0 2.3 1.1 1.1 0 0 1 0-2.3Z"/></svg></a>
+          <a href="https://www.facebook.com/mitechinternational/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.16 8.44 9.94v-7.03H7.9v-2.9h2.54V9.85c0-2.5 1.5-3.9 3.78-3.9 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34v7.03A10.06 10.06 0 0 0 22 12.06Z"/></svg></a>
+          <a href="https://www.tiktok.com/@mi_tech.college" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 2h-3.1v13.6a2.7 2.7 0 1 1-2.7-2.7c.24 0 .48.03.7.08V9.8a5.9 5.9 0 0 0-.7-.04A5.9 5.9 0 1 0 16.5 15.7V8.4a8 8 0 0 0 4.6 1.46V6.7c-2.2 0-4.1-1.2-4.6-3.1V2Z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Mi-Tech Group</h4>
+        <ul>
+          <li><a href="../index.html">Group Home</a></li>
+          <li><a href="../driving/index.html">Driving School</a></li>
+          <li><a href="../logistics/index.html">Logistics</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Computer College</h4>
+        <ul>
+          <li><a href="#courses">All courses</a></li>
+          <li><a href="https://wa.me/254722522100?text=Hi%20Mi-Tech%20Computer%20College%2C%20I%27d%20like%20to%20enroll%20in%20a%20course." target="_blank" rel="noopener">Enroll now</a></li>
+          <li><a href="#contact">Locations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Head Office</h4>
+        <ul>
+          <li>Legacy Plaza, 2nd Floor,<br>Thindigua</li>
+          <li><a href="tel:+254722522100">+254 722 522 100</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Mi-Tech International Group. All rights reserved.</span>
+      <span>Practical skills. Real outcomes.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="reg-modal-overlay" id="regModalOverlay" data-wa-number="254722522100" data-wa-greeting="Hi Mi-Tech Computer College, I'd like to register for a course.">
+  <div class="reg-modal" role="dialog" aria-modal="true" aria-labelledby="regModalTitle">
+    <button type="button" class="reg-modal-close" id="regModalClose" aria-label="Close registration form">&times;</button>
+    <h3 id="regModalTitle">Register your interest</h3>
+    <p class="reg-modal-sub">Fill in your details — we'll confirm everything with you on WhatsApp.</p>
+    <form id="regForm">
+      <label>Full name
+        <input type="text" id="regName" name="regName" required placeholder="e.g. Jane Wanjiru" />
+      </label>
+      <label>Phone number
+        <input type="tel" id="regPhone" name="regPhone" required placeholder="e.g. 0712 345 678" />
+      </label>
+      <label>Course
+        <select id="regCourse" name="regCourse" required>
+          <option value="" disabled selected>Select a course</option>
+          <option>Monitoring &amp; Evaluation (M&amp;E)</option>
+          <option>Project Management</option>
+          <option>Graphic Design</option>
+          <option>Computerized Accounting (QuickBooks)</option>
+          <option>Computer Packages</option>
+          <option>Data Visualization (Power BI &amp; Tableau + Excel)</option>
+          <option>Funding Proposal Writing</option>
+          <option>Basic Programming</option>
+          <option>Artificial Intelligence</option>
+          <option>Digital Marketing</option>
+          <option>Web Development</option>
+          <option>CorelDRAW</option>
+          <option>Adobe Illustrator</option>
+          <option>Adobe Photoshop</option>
+          <option>Adobe InDesign</option>
+          <option>Adobe Premiere</option>
+          <option>WordPress Development</option>
+          <option>Cisco Networking</option>
+          <option>CCTV Installation</option>
+          <option>Data Analytics (Excel, Power BI/Tableau, SQL, AI)</option>
+        </select>
+      </label>
+      <button type="submit" class="btn btn-navy btn-block">Register via WhatsApp</button>
+    </form>
+  </div>
+</div>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
